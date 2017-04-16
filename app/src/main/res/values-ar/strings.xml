@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyTask</string>
+    <string name="btn_registration">تسجيل</string>
+    <string name="btn_Login">دخول</string>
+    <string name="Etxt_password">كلمه المرور</string>
+    <string name="Etxt_email">البريد الالكتروني</string>
+    <string name="Etxt_firstname">الاسم الاول</string>
+    <string name="Etxt_Lastname">الاسم الاخير</string>
+    <string name="txtv_whatsName">ماهو اسمك ؟</string>
+    <string name="Etxt_Confirmpassword">تاكيد الرقم السرى</string>
+    <string name="Rbtn_male">رجل</string>
+    <string name="Rbtn_female">امراءه</string>
+    <string name="Etxt_mobile">رقم الهاتف</string>
+
+</resources>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#e8fcd5"
+    android:fillViewport="true"
+    tools:context="com.example.mahmoudshaeer.mytask.registration">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+<ImageView
+    android:layout_width="190dp"
+    android:layout_height="120dp"
+    android:layout_gravity="center"
+    android:background="@drawable/register_image"/>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Etxt_firstname"
+            android:layout_weight="1"
+            android:id="@+id/Etxt_FirstName"
+            android:layout_marginRight="8dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Etxt_Lastname"
+            android:layout_weight="1"
+            android:paddingLeft="9dp"
+            android:id="@+id/Etxt_LastName"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Etxt_email"
+        android:id="@+id/Etxt_Email"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Etxt_password"
+        android:password="true"
+        android:id="@+id/Etxt_Password"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Etxt_Confirmpassword"
+        android:password="true"
+        android:id="@+id/Etxt_ConfirmPassword"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Etxt_mobile"
+        android:id="@+id/Etxt_Mobile"
+        android:inputType="number"/>
+
+      <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+          <RadioButton
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_weight="1"
+              android:id="@+id/Rbtn_male"
+              android:onClick="CheckGender"
+              android:layout_marginLeft="10dp"
+              android:text="@string/Rbtn_male"/>
+          <RadioButton
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_weight="1"
+              android:id="@+id/Rbtn_female"
+              android:onClick="CheckGender"
+              android:layout_marginLeft="10dp"
+              android:text="@string/Rbtn_female"/>
+      </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnregistration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="registration"
+            android:background="@drawable/btn_login_clicked"
+            android:text="@string/btn_registration"
+            android:textAllCaps="false" />
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

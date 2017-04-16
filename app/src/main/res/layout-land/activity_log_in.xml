@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mahmoudshaeer.mytask.LogIn"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/AccountEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:hint="@string/Etxt_email" />
+
+    <EditText
+        android:id="@+id/Accountpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:password="true"
+        android:hint="@string/Etxt_password" />
+
+    <TextView
+        android:id="@+id/Error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="#f71010" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp">
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/btn_login_clicked"
+            android:text="@string/btn_Login"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnRegistration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/btn_sign_up_clicked"
+            android:text="@string/btn_registration"
+            android:textAllCaps="false"
+            android:onClick="RegistrationPage"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

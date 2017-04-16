@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#dbfdcc"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Contact"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:background="#acf96d"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        android:background="#24d600"></View>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="30dp"
+    android:text="Friend name"
+    android:textAlignment="center"
+    android:id="@+id/friendName"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/phoneNmuber"
+        android:text="012222222"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"/>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="match_parent"
+            android:text="ok"
+            android:id="@+id/ok"
+            android:background="@drawable/btn_login_clicked"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

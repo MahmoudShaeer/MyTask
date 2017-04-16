@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/personImage"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/person"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ownPst"
+        android:text="Name Friends"
+        android:layout_marginLeft="5dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/personImage"
+        android:layout_toEndOf="@+id/personImage" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title:"
+        android:textColor="#ff5d5d"
+        android:layout_alignBottom="@+id/personImage"
+        android:layout_alignLeft="@+id/ownPst"
+        android:layout_alignStart="@+id/ownPst" />
+
+    <TextView
+        android:id="@+id/body"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/personImage"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="Body : "
+        android:textColor="#2ac244" />
+
+</RelativeLayout>

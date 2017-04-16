@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MyTask</string>
+    <string name="btn_registration">Registration</string>
+    <string name="btn_Login">Login</string>
+    <string name="Etxt_password">Password</string>
+    <string name="Etxt_email">Email</string>
+    <string name="Etxt_firstname">First Name</string>
+    <string name="Etxt_Lastname">Last Name</string>
+    <string name="txtv_whatsName">what is your name ?</string>
+
+    <string name="Etxt_Confirmpassword">Confirm Password</string>
+    <string name="Rbtn_male">Male</string>
+    <string name="Rbtn_female">Female</string>
+    <string name="Etxt_mobile">Mobile</string>
+
+</resources>
