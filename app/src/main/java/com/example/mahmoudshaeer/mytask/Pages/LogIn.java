@@ -9,6 +9,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.example.mahmoudshaeer.mytask.Database.DatabaseConnection;
+import com.example.mahmoudshaeer.mytask.Models.UserInformation;
+
 /****
  * this the first Class will called
  *          attributes : email , password,btnRegistration,btnLogin,databaseConnection
@@ -132,16 +135,16 @@ public class LogIn extends AppCompatActivity {
     {
         Intent intent=new Intent(this,Home.class);
         //i want his name and id to view these post depent on userid in JSON
-        Toast.makeText(this, userInformationEnterApp.getFirstName(), Toast.LENGTH_SHORT).show();
+       // Toast.makeText(this, userInformationEnterApp.getFirstName(), Toast.LENGTH_SHORT).show();
         intent.putExtra("FirstName",userInformationEnterApp.getFirstName());
-        Toast.makeText(this, userInformationEnterApp.getLastName(), Toast.LENGTH_SHORT).show();
+       // Toast.makeText(this, userInformationEnterApp.getLastName(), Toast.LENGTH_SHORT).show();
         intent.putExtra("LastName",userInformationEnterApp.getLastName());
-        intent.putExtra("UserId",userInformationEnterApp.getId());
-       // intent.putExtra("UserId","1");
-        Toast.makeText(this, userInformationEnterApp.getId(), Toast.LENGTH_SHORT).show();
+       // intent.putExtra("UserId",userInformationEnterApp.getId());
+        intent.putExtra("UserId","1");
+       // Toast.makeText(this, userInformationEnterApp.getId(), Toast.LENGTH_SHORT).show();
 
         intent.putExtra("Mobile",userInformationEnterApp.getMobile());
-        Toast.makeText(this, userInformationEnterApp.getMobile(), Toast.LENGTH_SHORT).show();
+        //Toast.makeText(this, userInformationEnterApp.getMobile(), Toast.LENGTH_SHORT).show();
 
         startActivity(intent);
     }

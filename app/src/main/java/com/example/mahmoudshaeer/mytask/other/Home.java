@@ -13,8 +13,9 @@ import android.support.v4.view.PagerTabStrip;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Toast;
+
+import com.example.mahmoudshaeer.mytask.Adapters.HomeAdapter;
+import com.example.mahmoudshaeer.mytask.Models.ContactsInformation;
 
 import java.util.ArrayList;
 

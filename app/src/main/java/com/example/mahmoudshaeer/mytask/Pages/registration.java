@@ -1,16 +1,17 @@
 package com.example.mahmoudshaeer.mytask;
 
 import android.content.Intent;
-import android.database.sqlite.SQLiteDatabase;
 import android.graphics.drawable.Drawable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.Toast;
+
+import com.example.mahmoudshaeer.mytask.Database.DatabaseConnection;
+import com.example.mahmoudshaeer.mytask.Models.UserInformation;
 
 
 /***

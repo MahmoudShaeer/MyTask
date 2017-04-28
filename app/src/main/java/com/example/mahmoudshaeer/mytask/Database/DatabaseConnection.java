@@ -8,6 +8,8 @@ import android.database.sqlite.SQLiteException;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.widget.Toast;
 
+import com.example.mahmoudshaeer.mytask.Models.UserInformation;
+
 /**
  * Created by mahmoud Shaeer on 4/15/2017.
  */
